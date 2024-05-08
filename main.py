@@ -133,4 +133,7 @@ while (salirya is False):
             print("Colección eliminada")
     if opcion == "8":
         salirya = True
+    else:
+    print("Opción no válida, introduzca una de las opciones ofrecidas")
+    pausa = input("Introduzca cualquier valor para continuar")
 print("Ha elegido salir, que tenga un buen día")
